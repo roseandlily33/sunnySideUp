@@ -9,11 +9,14 @@ I loved the concept, design and layout of this project, I tweaked it here and th
 
 ## Screenshots:
 Mobile:
+
 <img width="371" alt="Screenshot 2023-04-19 at 3 04 00 PM" src="https://user-images.githubusercontent.com/109821108/233164353-a18b1021-e24c-42b7-a038-8d8bcdf7078b.png">
+
 <img width="369" alt="Screenshot 2023-04-19 at 3 04 13 PM" src="https://user-images.githubusercontent.com/109821108/233164367-2bb9f6fb-105d-4233-aa49-7663348e773c.png">
+
 Desktop:
 
-## What I Leaarned:
+## What I Learned:
 This is the first project that I have made with a hamburger menu, I really enjoyed bulilding the layout it was a challenging one that was beautiful, and full of colour and fun aspects. When it came to the picture's that was also a good learning experience because of the fact there is so many in this project, and having them side by side and the different width's and height's was a challenge sometimes to get it to cooperate. 
 
 ## Resources:
