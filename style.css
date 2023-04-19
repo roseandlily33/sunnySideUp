@@ -9,7 +9,7 @@
     --Yellow: hsl(51, 100%, 49%);
     --Darkdesaturatedcyan: hsl(167, 40%, 24%);
     --Darkblue: hsl(198, 62%, 26%);
-    --Darkmoderatecyan: hsl(168, 34%, 41%);
+    --Darkmoderatecyan: hsl(168, 44%, 65%);
     --Barlow: 'Barlow', sans-serif;
     --Fraunces: 'Fraunces', serif;
 }
@@ -28,7 +28,7 @@ body{
   font-family: var(--Barlow);
 }
 header{
-    background-image: url('/images/desktop/image-header.jpg');
+    background-image: url('/images/mobile/image-header.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat; 
     height: 500px;
@@ -171,18 +171,87 @@ main img{
 
 }
 #cherry{
-    background-image: url('/images/desktop/image-graphic-design.jpg');
-    height: 100%;
-
-
+    background-image: url('/images/mobile/image-graphic-design.jpg');
+    height: 500px;
 }
 #orange{
-    background-image: url('/images/desktop/image-photography.jpg');
+    background-image: url('/images/mobile/image-photography.jpg');
+    height: 500px;
+}
+#clientTestimonials{
+   color: black;
+}
+#clientTestimonials div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#clientTestimonials img{
+    border-radius: 50%;
+    height: 25%;
+    width: 25%;
+    margin-block: 0.8em;
+}
+#clientTestimonials h2{
+    letter-spacing: 0.2em;
+    font-family: var(--Fraunces);
+    color: var(--Grayishblue);
+    font-size: 1em;
+    padding-block: 2em;
+}
+#clientTestimonials p{
+    font-size: 1em;
+    line-height: 2em;
+    padding: 1em;
+}
+#clientTestimonials h3{
+    font-weight: bold;
+    font-family: var(--Fraunces);
+}
+#clientTestimonials h4{
+    color: var(--Grayishblue);
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+#fourPictures{
+    margin-top: 2em;
 }
 #fourPictures img{
-    height: 40%;
-    width: 40%;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 200px;
 }
 footer{
     background-color: var(--Darkmoderatecyan);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer img{
+    margin: 2em;
+    width: 80%;
+}
+footer nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+footer li{
+    margin: 1em;
+}
+footer a{
+   text-decoration: none;
+   color: var(--Darkdesaturatedcyan);
+}
+#socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em;
+}
+#socialMedia img{
+    width: 20px;
+    margin: 0.6em;
 }
