@@ -170,13 +170,37 @@ main img{
     font-weight: bold;
 
 }
+#fruitPics{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 #cherry{
     background-image: url('/images/mobile/image-graphic-design.jpg');
-    height: 500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    height: 600px;
 }
 #orange{
     background-image: url('/images/mobile/image-photography.jpg');
-    height: 500px;
+    height: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+}
+.divMini{
+    margin-top: 100%;
+}
+.fruitTitle{
+    color: var(--Darkblue);
+    font-family: var(--Fraunces);
+    font-size: 1.4em;
+
+}
+.fruitPara{
+    color: var(--Darkblue);
+    padding: 1em;
+    font-size: 0.8em;
+
 }
 #clientTestimonials{
    color: black;
