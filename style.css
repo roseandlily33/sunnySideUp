@@ -149,9 +149,13 @@ label a:hover{
     color: var(--Softred);
     text-decoration: underline;
 }
+/* Egg and Cup pictures */
 main img{
     width: 100%;
-   
+}
+.eggCup{
+    display: flex;
+    flex-direction: column;
 }
 .picTitle{
     color: black;
@@ -161,15 +165,23 @@ main img{
 .picPara{
     color: var(--Darkgrayishblue);
     text-align: center;
-
+    padding: 1em;
 }
 .learnMore{
     text-align: center;
     color: black;
     font-family: var(--Fraunces);
     font-weight: bold;
-
+    margin: 1em;
+    text-decoration: underline;
+    text-decoration-color: var(--Softred);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2.5px ;
 }
+.learnMore:hover{
+    color: var(--Yellow);
+}
+/* Fruit Pictures */
 #fruitPics{
     display: flex;
     flex-direction: column;
@@ -202,6 +214,7 @@ main img{
     font-size: 0.8em;
 
 }
+/* Client testimonials */
 #clientTestimonials{
    color: black;
 }
@@ -247,6 +260,7 @@ main img{
     width: 200px;
     height: 200px;
 }
+/* Footer */
 footer{
     background-color: var(--Darkmoderatecyan);
     display: flex;
